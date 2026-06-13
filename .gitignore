@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.wav
+*.flac
+final_tfsed_dataset/
+clip_*_preview.png
+.ipynb_checkpoints/
+.DS_Store
+.history
