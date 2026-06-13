@@ -1,22 +1,4 @@
----
-license: cc-by-4.0
-pretty_name: TF-SED AudioSet Time-Frequency Boxes
-task_categories:
-- audio-classification
-tags:
-- sound-event-detection
-- audioset
-- time-frequency
-- bounding-boxes
-- weak-labels
-size_categories:
-- 10K<n<100K
-configs:
-- config_name: default
-  data_files:
-  - split: train
-    path: metadata.csv
----
+
 
 # TF-SED AudioSet Time-Frequency Boxes
 
