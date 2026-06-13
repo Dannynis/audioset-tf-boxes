@@ -19,7 +19,7 @@ Load the manifest and parse the per-clip boxes:
 from datasets import load_dataset
 import json
 
-ds = load_dataset("YOUR_USERNAME/tfsed-audioset-boxes", split="train")
+ds = load_dataset("Dannynis/audioset-tf-boxes", split="train")
 row = ds[0]
 boxes = json.loads(row["weak_labels_json"])
 # boxes[0] -> {"label": "Speech", "onset_s": 0.26, "offset_s": 4.59,
